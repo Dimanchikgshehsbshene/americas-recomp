@@ -28,6 +28,7 @@ path = [
   "tools/tests/test_xbox_tool16_mixed_heap.py",
   "tools/tests/test_xbox_xgr_gen_stub.py",
   "tools/xbox/addr_scan.py",
+  "tools/xbox/bvh_rehydrate_cpu.py",
   "tools/xbox/canary.py",
   "tools/xbox/cmp_e2e.py",
   "tools/xbox/cmp_phi.py",
@@ -91,6 +92,8 @@ path = [
   "tools/xbox/run_real.py",
   "tools/xbox/run_variants.py",
   "tools/xbox/structurizer_corpus.py",
+  "tools/xbox/test_bvh_rehydrate_cpu.py",
+  "tools/xbox/test_carve_shaders.py",
 ]
 precedence = "override"
 SPDX-FileCopyrightText = "2026 The americas-recomp contributors"
